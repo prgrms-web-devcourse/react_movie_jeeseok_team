@@ -1,7 +1,13 @@
+import styled from "@emotion/styled";
+
+const Title = styled.h1`
+  color: hotpink;
+`;
+
 function App() {
   return (
     <>
-      <h1>App</h1>
+      <Title>App</Title>
     </>
   );
 }
