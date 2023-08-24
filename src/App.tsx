@@ -1,15 +1,12 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
-const Title = styled.h1`
-  color: hotpink;
+const Hello = styled.div`
+  font-size: 32px;
+  font-weight: 700;
 `;
 
 function App() {
-  return (
-    <>
-      <Title>App</Title>
-    </>
-  );
+  return <Hello>Hello</Hello>;
 }
 
 export default App;
